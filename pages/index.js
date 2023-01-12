@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Header from '../components/Header'
 
 export default function Home() {
@@ -14,6 +15,13 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Body */}
+      <form>
+        <Image
+          width={300}
+          height={100}
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        />
+      </form>
 
       {/* Footer */}
     </>
