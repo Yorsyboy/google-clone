@@ -1,5 +1,6 @@
 import Head from "next/head";
 import SearchHeader from "../components/SearchHeader";
+import Response from "../Response";
 
 export default function search({results}) {
   console.log(results)
@@ -18,7 +19,8 @@ export default function search({results}) {
 }
 
 export async function getServerSideProps(context) {
-  const data = await fetch(
+  const mockData = true
+  const data = mockData ? Response : await fetch(
     `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${
       process.env.CX_KEY
     }&q=${context.query.term}${context.query.searchType && "&searchType=image"}`
