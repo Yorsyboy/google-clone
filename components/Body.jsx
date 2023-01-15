@@ -20,6 +20,7 @@ export default function Body() {
         width={300}
         height={100}
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
       />
       <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-lg focus-within:shadow-lg px-5 py-3 rounded-full items-center sm:max-w-xl lg:max-w-2xl">
         <SearchIcon className="h-5 text-gray-500 mr-3" />
