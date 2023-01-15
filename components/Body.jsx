@@ -12,7 +12,7 @@ export default function Body() {
     e.preventDefault();
     const term = searchInputRef.current.value;
     if (!term.trim()) return;
-    router.push(`/search?term=${term.trim()}`);
+    router.push(`/search?term=${term.trim()}&searchType=`);
   };
   return (
     <form className="flex flex-col items-center mt-40 ">
