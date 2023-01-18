@@ -9,11 +9,11 @@
 - [NextJs](https://nextjs.org/)
 - Tailwind Css
 - Google API
-- [RandomWord] API (https://random-word-api.herokuapp.com/home)
+- [RandomWordAPI](https://random-word-api.herokuapp.com/home)
 
 ## Live Demo (if available)
 
-- [Google-clone]()
+- [Google-clone](https://google-clone-chi-jade.vercel.app/)
 
 ## Getting Started
 
