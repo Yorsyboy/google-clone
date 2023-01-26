@@ -7,7 +7,7 @@
 ## Built With
 
 - [NextJs](https://nextjs.org/)
-- Tailwind Css
+- [TailwindCss](https://tailwindcss.com/)
 - Google API
 - [RandomWordAPI](https://random-word-api.herokuapp.com/home)
 
